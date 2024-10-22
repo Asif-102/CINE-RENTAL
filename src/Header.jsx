@@ -11,8 +11,6 @@ export default function Header() {
 
   const { cartData } = useContext(MovieContext);
 
-  console.log(cartData);
-
   function handleCartShow() {
     setShowCart(true);
   }
